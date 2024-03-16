@@ -27,3 +27,9 @@
 ::-webkit-scrollbar-thumb {
   background-color: teal;
 }
+@media (min-width: 1280px) {
+  .blob {
+    width: 340px;
+    height: 340px;
+  }
+}

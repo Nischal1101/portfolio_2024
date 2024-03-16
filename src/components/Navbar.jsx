@@ -1,13 +1,14 @@
 import { useContext, useEffect } from "react";
 import { AiOutlineHeatMap } from "react-icons/ai";
 import themeContext from "../context/ThemeContext";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const { theme, setTheme } = useContext(themeContext);
 
   const handleToggle = (e) => {
     if (e.target.checked) {
-      setTheme("mydark");
+      setTheme("dark");
     } else {
       setTheme("light");
     }
@@ -25,10 +26,24 @@ const Navbar = () => {
         </div>
       </div>
       <div className="mt-10">
-        <ul className="flex gap-4 justify-center text-xl items-center">
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
+        <ul className="flex gap-4 justify-center text-xl items-center lg:text-2xl lg:gap-10">
+          <li className=" transition ease-in-out delay-150 duration-300  hover:scale-110 hover:text-teal-500">
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li className=" transition ease-in-out delay-150 duration-300  hover:scale-110 hover:text-teal-500">
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+
+          <li className=" transition ease-in-out delay-150 duration-300  hover:scale-110 hover:text-teal-500">
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+
           <li>
             <div className="theme mt-1">
               <label className="swap swap-rotate">
