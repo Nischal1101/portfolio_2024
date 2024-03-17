@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="mt-24  p-4" name="about">
       <div className="mt-10 flex flex-col text-center gap-4 lg:gap-8">
-        <h1 className="text-6xl lg:text-8xl">about</h1>
+        <h1 className="text-6xl lg:text-8xl">About</h1>
         <div className="mx-auto mt-10 w-[300px] h-[250px]">
           <img src={computer} alt="computer" />
         </div>
