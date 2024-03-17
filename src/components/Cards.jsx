@@ -6,7 +6,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 const Cards = () => {
   return (
     <div className="mt-10 grid grid-cols-1 place-items-center gap-10 lg:grid-cols-3 ">
-      <div className="card max-w-96 bg-base-100 shadow-2xl ">
+      <div className="card w-80 lg:w-full max-w-96  bg-base-100 shadow-2xl ">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <FaReact className="w-10 h-10" />
@@ -60,7 +60,7 @@ const Cards = () => {
           <p>Experience: 1 year of building web apps. </p>
         </div>
       </div>
-      <div className="card w-80 max-w-96 bg-base-100 shadow-2xl">
+      <div className="card w-80 lg:w-full max-w-96 bg-base-100 shadow-2xl">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <LiaNode className="w-10 h-10" />
@@ -106,7 +106,7 @@ const Cards = () => {
           <p>Experience: 1 year of building web apis. </p>
         </div>
       </div>
-      <div className="card w-80 max-w-96 bg-base-100 shadow-2xl">
+      <div className="card w-80 lg:w-full max-w-96 bg-base-100 shadow-2xl">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <SiPostgresql className="w-10 h-10" />
@@ -156,7 +156,7 @@ const Cards = () => {
           <p>Experience: 1 year of using postgres. </p>
         </div>
       </div>
-      <div className="card w-80 max-w-96 bg-base-100 shadow-2xl">
+      <div className="card w-80 lg:w-full max-w-96 bg-base-100 shadow-2xl">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <FaPython className="w-10 h-10" />
@@ -204,7 +204,7 @@ const Cards = () => {
           <p>Experience: 6 months of using python. </p>
         </div>
       </div>
-      <div className="card w-80 max-w-96 bg-base-100 shadow-2xl">
+      <div className="card w-80 lg:w-full max-w-96 bg-base-100 shadow-2xl">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <SiTypescript className="w-10 h-10" />
@@ -254,7 +254,7 @@ const Cards = () => {
           <p>Experience: 1.5 years of using Typescript. </p>
         </div>
       </div>
-      <div className="card w-80 max-w-96 bg-base-100 shadow-2xl">
+      <div className="card w-80  lg:w-full max-w-96 bg-base-100 shadow-2xl">
         <div className="card-body">
           <div className="flex gap-4 justify-center items-center">
             <TbBrandNextjs className="w-10 h-10" />

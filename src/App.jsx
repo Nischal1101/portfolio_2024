@@ -5,6 +5,7 @@ import ThemeState from "./context/ThemeState";
 import Skills from "./pages/Skills";
 import About from "./About";
 import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Projects />
         <Contact />
       </ThemeState>
     </div>

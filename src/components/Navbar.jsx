@@ -37,6 +37,11 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
+          <li className=" transition ease-in-out delay-150 duration-300  hover:scale-110 hover:text-teal-500">
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
 
           <li className=" transition ease-in-out delay-150 duration-300  hover:scale-110 hover:text-teal-500">
             <Link to="contact" smooth={true} duration={500}>
