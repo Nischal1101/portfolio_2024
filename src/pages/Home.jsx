@@ -35,10 +35,34 @@ const Home = () => {
         <div className="blob mt-14"></div>
       </div>
       <div className="flex flex-row gap-4 justify-center mt-6">
-        <FaGithub className="w-6 h-6" />
-        <FaXTwitter className="w-6 h-6" />
-        <FaLinkedinIn className="w-6 h-6" />
-        <FaInstagram className="w-6 h-6" />
+        <a
+          href="https://www.github.com/nischal1101"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.x.com/nischalone"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaXTwitter className="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nischal-kafle-7554b9226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn className="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.instagram.com/_nischalkafle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="w-6 h-6" />
+        </a>
       </div>
       <div className="mt-9 flex justify-center items-center gap-3">
         <p className="text-xl">Scroll down</p>
